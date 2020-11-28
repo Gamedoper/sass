@@ -1,0 +1,17 @@
+.firstbtn {
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 200px;
+  font-size: 32px;
+  color: #FFF;
+  background-color: blue; }
+
+.secondbtn {
+  width: 200px;
+  height: 50px;
+  border: 0;
+  border-radius: 100px;
+  font-size: 32px;
+  color: #FFF;
+  background-color: green; }

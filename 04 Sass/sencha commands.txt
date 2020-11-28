@@ -1,0 +1,17 @@
+sencha help
+
+sencha help <command>
+e.g.
+sencha help generate app
+
+sencha -sdk <path\to\downloaded\extjs\folder> generate app -ext -modern <app name> <folder name>
+e.g. (for Modern)
+sencha -sdk \ExtJs\ext-6.2.0 generate app -ext -modern MyApp appfolder
+
+e.g. (for Classic)
+sencha -sdk \ExtJs\ext-6.2.0 generate app -ext -classic MyApp appfolder
+
+
+sencha app build production
+
+

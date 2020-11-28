@@ -1,0 +1,41 @@
+body, html {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	color: lightblue;
+}
+
+.first {
+	width: 200px;
+	height: 50px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.rounded-box {
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.small {
+	background-color: #ccc;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.big {
+	background-color: pink;
+	margin: 0 auto;
+	width: 300px;
+	height: 50px;
+}
+
+.big .small {
+	border: 1px solid red;
+}
+
+.firstbtn {
+    background-color: #B18719;
+    /*font-family: serif;*/
+}

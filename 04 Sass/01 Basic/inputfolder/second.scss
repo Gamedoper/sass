@@ -1,0 +1,29 @@
+
+$maincolor: #ED3E40;
+$parentcolor: #FCD208;
+$smallcolor: #4CB848;
+
+.first {
+	border: 2px solid $maincolor;
+	background-color: lighten($maincolor, 30%);
+	border-radius: 5px;
+	width: 300px;
+	height: 50px;
+	margin: 10px;
+}
+
+.big{
+	border-radius: 5px;
+	border: 2px solid $parentcolor;
+	margin: 20px;
+	
+	.small {
+		width: 200px;
+	}
+}
+
+.small {
+	border-radius: 5px;
+	border: 2px solid $smallcolor;
+	margin: 20px;
+}

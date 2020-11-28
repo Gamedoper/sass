@@ -1,0 +1,36 @@
+$maincolor: lightblue;
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+// button {
+// 	border: 0;
+// 	border-radius: 5px;
+// 	width: 100px;
+// 	height: 50px;
+// }
+
+@mixin defaultbutton($borderradius){
+	border: 0;
+	border-radius: $borderradius;
+	width: 100px;
+	height: 50px;
+}
+
+.firstbtn {
+	@include defaultbutton(5px);
+	background-color: green;
+	color: white;
+}
+
+.secondbtn {
+	@include defaultbutton(10px);
+	background-color: red;
+	color: white;
+}
+
+.thirdbtn {
+	@include defaultbutton(15px);
+	background-color: yellow;
+}

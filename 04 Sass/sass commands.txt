@@ -1,0 +1,21 @@
+SASS Reference -
+http://sass-lang.com/
+
+# Check SASS version
+sass -v
+
+# SASS help
+sass -h
+
+# Convert scss file to css (one time)
+sass input.scss output.css
+
+# Convert scss file to css (continuously)
+sass --watch input.scss:output.css
+
+
+# Convert scss file to css (continuously) with options
+sass -t compact --watch input.scss:output.css
+sass -t compressed --watch input.scss:output.css
+sass -t expanded --watch input.scss:output.css
+
